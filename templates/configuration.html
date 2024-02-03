@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIDS Dashboard</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar {
+            background-color: #37474f;
+            color: #fff;
+            padding: 20px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #263238;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .status,
+        .devices,
+        .services,
+        .ddos-threshold {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .status h2,
+        .devices h2,
+        .services h2,
+        .ddos-threshold h2 {
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: #37474f;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <a href="/">Dashboard</a>
+            <a href="#">Events</a>
+            <a href="#">Alerts</a>
+            <a href="#">Statistics</a>
+            <a href="#">Settings</a>
+            <a href="/block-domain">Block Domains</a>
+            <a href="#">Block IP</a>
+            <a href="#">Block Port</a>
+            <a href="#">Configuration</a>
+        </div>
+
+        <div class="content">
+
+            <div class="services">
+                <h2>Blocked Services</h2>
+                <!-- Add form to block services -->
+                <form id="blockServiceForm" action="/block-service" method="POST">
+                    <label for="serviceName">Service Name:</label>
+                    <select id="serviceName" name="serviceName">
+                        <option value="SSH">SSH</option>
+                        <option value="HTTP">HTTP</option>
+                        <option value="HTTPS">HTTPS</option>
+                        <option value="FTP">FTP</option>
+                        <option value="SMTP">SMTP</option>
+                        <option value="DNS">DNS</option>
+                        <option value="Telnet">Telnet</option>
+                        <option value="RDP">RDP</option>
+                        <option value="SNMP">SNMP</option>
+                        <option value="IMAP">IMAP</option>
+                        <option value="POP3">POP3</option>
+                        <option value="SMB">SMB</option>
+                    </select>
+                    <button type="submit">Block Service</button>
+                </form>
+
+                <!-- Display list of blocked services -->
+                <ul>
+                    {% for service in blocked_services %}
+                    <li>{{ service }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <!-- Form to delete services -->
+            <div class="delete-form">
+                <form id="deleteServiceForm" action="/delete-service" method="POST">
+                    <label for="deleteService">Delete Service:</label>
+                    <select id="deleteService" name="deleteService">
+                        {% for service in blocked_services %}
+                        <option value="{{ service }}">{{ service }}</option>
+                        {% endfor %}
+                    </select>
+                    <button type="submit">Delete Service</button>
+                </form>
+            </div>
+
+            <div class="ddos-threshold">
+                <h2>DDoS Threshold</h2>
+                <!-- Add form to set DDoS threshold -->
+                <form id="ddosThresholdForm" action="/set-ddos-threshold" method="POST">
+                    <label for="threshold">Threshold:</label>
+                    <input type="number" id="threshold" name="threshold" required>
+                    <button type="submit">Set Threshold</button>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            &copy; 2024 NIDS Dashboard. All rights reserved.
+        </footer>
+    </div>
+
+</body>
+
+</html>

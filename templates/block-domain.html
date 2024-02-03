@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Domain to Blocklist</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar {
+            background-color: #37474f;
+            color: #fff;
+            padding: 20px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #263238;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .status,
+        .devices {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .status h2,
+        .devices h2 {
+            margin-top: 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        button[type="submit"] {
+            background-color: #37474f;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #263238;
+        }
+
+        footer {
+            background-color: #37474f;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="/">Dashboard</a>
+            <a href="#">Events</a>
+            <a href="#">Alerts</a>
+            <a href="#">Statistics</a>
+            <a href="#">Settings</a>
+            <a href="/block-domain">Block Domains</a>
+            <a href="#">Block IP</a>
+            <a href="/block-ports">Block Port</a>
+            <a href="#">Configuration</a>
+        </div>
+
+
+        <div class="content">
+            <div class="status">
+                <h2>Add Domain to Blocklist</h2>
+                <form id="addDomainForm">
+                    <label for="domainInput">Domain:</label>
+                    <input type="text" id="domainInput" name="domain" placeholder="Enter Domain" required>
+                    <button type="submit">Add to Blocklist</button>
+                </form>
+            </div>
+            <div class="devices">
+                <h2>Blocked Domains</h2>
+                <ul>
+                    {% for domain in domains %}
+                    <li>{{ domain }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            &copy; 2024 NIDS Dashboard. All rights reserved.
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('addDomainForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            let domainInput = document.getElementById('domainInput');
+            let url = domainInput.value;
+            let domain = new URL(url).hostname;
+
+            fetch('/add-domain', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: new URLSearchParams({
+                    'domain': domain
+                })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        alert('Domain added to blocklist successfully!');
+                        domainInput.value = ''; // Clear input field after successful addition
+                    } else {
+                        alert('Failed to add domain to blocklist.');
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        });
+
+        // Function to display blocked URLs with delete buttons
+        function displayBlockedURLs(blockedURLs) {
+            let blockedList = document.getElementById('blockedList');
+            blockedList.innerHTML = ''; // Clear previous content
+
+            blockedURLs.forEach(url => {
+                let listItem = document.createElement('li');
+                listItem.textContent = url;
+
+                let deleteButton = document.createElement('button');
+                deleteButton.textContent = 'Delete';
+                deleteButton.onclick = function () {
+                    // Send request to delete the URL
+                    fetch('/delete-url', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded'
+                        },
+                        body: new URLSearchParams({
+                            'url': url
+                        })
+                    })
+                        .then(response => response.json())
+                        .then(data => {
+                            if (data.success) {
+                                alert('URL deleted successfully!');
+                                // Remove the deleted URL from the displayed list
+                                listItem.remove();
+                            } else {
+                                alert('Failed to delete URL.');
+                            }
+                        })
+                        .catch(error => console.error('Error:', error));
+                };
+
+                listItem.appendChild(deleteButton);
+                blockedList.appendChild(listItem);
+            });
+        }
+
+        // Fetch blocked URLs when the page loads
+        fetch('/domains')
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    displayBlockedURLs(data.blocked_domains);
+                } else {
+                    alert('Failed to fetch blocked URLs.');
+                }
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
+
+
+
+</body>
+
+</html>

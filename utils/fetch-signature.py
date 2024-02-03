@@ -1,0 +1,1 @@
+# fetch signatures of files and give it to virustotal
