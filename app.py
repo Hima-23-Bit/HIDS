@@ -19,7 +19,7 @@ def load_blocked_services():
     try:
         with open('blocked_services.json', 'r') as f:
             data = json.load(f)
-            blocked_services = data.get('blocked_services', [])
+            blocked_services = dataa.get('blocked_services', [])
             return [service.lower() for service in blocked_services]  # Convert to lowercase for case-insensitive comparison
     except FileNotFoundError:
         return []

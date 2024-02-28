@@ -1,12 +1,3 @@
 {
-    "blocked_services": [
-        "SSH",
-        "Telnet",
-        "FTP",
-        "HTTP",
-        "DNS",
-        "IMAP",
-        "RDP",
-        "HTTPS"
-    ]
+    "blocked_services": ["ssh"]
 }
