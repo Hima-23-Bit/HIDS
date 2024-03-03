@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>Add Domain to Blocklist</title>
+    <title>Block IP</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,7 +18,6 @@
             max-width: 1200px;
             margin: 20px auto;
             background-color: #fff;
-            
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -135,20 +134,20 @@
 
         <div class="content">
             <div class="status">
-                <h2>Add Domain to Blocklist</h2>
-                <form id="addDomainForm">
-                    <label for="domainInput">Domain:</label>
-                    <input type="text" id="domainInput" name="domain" placeholder="Enter Domain" required>
-                    <button type="submit">Add to Blocklist</button>
+                <h2>Block IP Address</h2>
+                <form id="blockIpForm">
+                    <label for="ipInput">IP Address:</label>
+                    <input type="text" id="ipInput" name="ip" placeholder="Enter IP Address" required>
+                    <button type="submit">Block IP</button>
                 </form>
             </div>
             <div class="devices">
-                <h2>Blocked Domains</h2>
-                <ul id="blockedDomainsList">
-                    {% for domain in domains %}
+                <h2>Blocked IP Addresses</h2>
+                <ul id="blockedIPList">
+                    {% for ip in blocked_ips %}
                     <li>
-                        {{ domain }}
-                        <button class="delete-button" onclick="removeFromBlocklist('{{ domain }}')">
+                        {{ ip }}
+                        <button class="delete-button" onclick="removeFromBlocklist('{{ ip }}')">
                             <i class="fas fa-trash-alt"></i>
                         </button>
                     </li>
@@ -163,109 +162,54 @@
     </div>
 
     <script>
-        document.getElementById('addDomainForm').addEventListener('submit', function (event) {
+        document.getElementById('blockIpForm').addEventListener('submit', function (event) {
             event.preventDefault();
-            let domainInput = document.getElementById('domainInput');
-            let url = domainInput.value;
-            let domain = new URL(url).hostname;
+            let ipInput = document.getElementById('ipInput');
+            let ipAddress = ipInput.value;
 
-            fetch('/add-domain', {
+            fetch('/block-ip', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded'
                 },
                 body: new URLSearchParams({
-                    'domain': domain
+                    'ip': ipAddress
                 })
             })
                 .then(response => response.json())
                 .then(data => {
                     if (data.success) {
-                        alert('Domain added to blocklist successfully!');
-                        domainInput.value = ''; // Clear input field after successful addition
+                        alert('IP address blocked successfully!');
+                        ipInput.value = ''; // Clear input field after successful blocking
                     } else {
-                        alert('Failed to add domain to blocklist.');
+                        alert('Failed to block IP address.');
                     }
                 })
                 .catch(error => console.error('Error:', error));
         });
 
-        // Function to display blocked URLs with delete buttons
-        function displayBlockedURLs(blockedURLs) {
-            let blockedList = document.getElementById('blockedList');
-            blockedList.innerHTML = ''; // Clear previous content
-
-            blockedURLs.forEach(url => {
-                let listItem = document.createElement('li');
-                listItem.textContent = url;
-
-                let deleteButton = document.createElement('button');
-                deleteButton.textContent = 'Delete';
-                deleteButton.onclick = function () {
-                    // Send request to delete the URL
-                    fetch('/delete-url', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/x-www-form-urlencoded'
-                        },
-                        body: new URLSearchParams({
-                            'url': url
-                        })
-                    })
-                        .then(response => response.json())
-                        .then(data => {
-                            if (data.success) {
-                                alert('URL deleted successfully!');
-                                // Remove the deleted URL from the displayed list
-                                listItem.remove();
-                            } else {
-                                alert('Failed to delete URL.');
-                            }
-                        })
-                        .catch(error => console.error('Error:', error));
-                };
-
-                listItem.appendChild(deleteButton);
-                blockedList.appendChild(listItem);
-            });
-        }
-
-        // Fetch blocked URLs when the page loads
-        fetch('/domains')
-            .then(response => response.json())
-            .then(data => {
-                if (data.success) {
-                    displayBlockedURLs(data.blocked_domains);
-                } else {
-                    alert('Failed to fetch blocked URLs.');
-                }
-            })
-            .catch(error => console.error('Error:', error));
-
-        function removeFromBlocklist(domain) {
-            fetch('/delete-domain', {
+        function removeFromBlocklist(ip) {
+            fetch('/unblock-ip', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded'
                 },
                 body: new URLSearchParams({
-                    'domain': domain
+                    'ip': ip
                 })
             })
                 .then(response => response.json())
                 .then(data => {
                     if (data.success) {
-                        alert('Domain removed from blocklist successfully!');
-                        location.reload(); // Refresh the page to update the domain list  
+                        alert('IP address unblocked successfully!');
+                        location.reload(); // Refresh the page to update the IP list  
                     } else {
-                        alert('Failed to remove domain from blocklist.');
+                        alert('Failed to unblock IP address.');
                     }
                 })
                 .catch(error => console.error('Error:', error));
         }  
     </script>
-
-
 
 </body>
 

@@ -2,10 +2,6 @@
     "blocked_domains": [
         "chat.openai.com",
         "github.com",
-        "chat.openfuckai.com",
-        "127.0.0.1",
-        "fuckoff.com",
-        "outlook.live.com",
         "www.google.com"
     ]
 }

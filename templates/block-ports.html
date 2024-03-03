@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NIDS Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Block IP</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -49,8 +50,7 @@
         }
 
         .status,
-        .devices,
-        .blocked-ports {
+        .devices {
             background-color: #fff;
             padding: 20px;
             margin-bottom: 20px;
@@ -59,9 +59,41 @@
         }
 
         .status h2,
-        .devices h2,
-        .blocked-ports h2 {
+        .devices h2 {
             margin-top: 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        button[type="submit"] {
+            background-color: #37474f;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #263238;
         }
 
         footer {
@@ -72,42 +104,53 @@
             border-bottom-left-radius: 5px;
             border-bottom-right-radius: 5px;
         }
+
+        .delete-button {
+            background-color: transparent;
+            border: none;
+            color: #f44336;
+            /* red */
+            cursor: pointer;
+        }
+
+        .delete-button:hover {
+            color: #b71c1c;
+            /* dark red */
+        }
     </style>
 </head>
 
 <body>
-
     <div class="container">
         <div class="navbar">
             <a href="/">Dashboard</a>
-            <a href="#">Alerts</a>
-            <a href="#">Statistics</a>
+            <a href="/alerts">Alerts</a>
+            <a href="/statistics">Statistics</a>
             <a href="/block-domain">Block Domains</a>
-            <a href="#">Block IP</a>
+            <a href="/block-ip-page">Block IP</a>
             <a href="/block-ports">Block Port</a>
-            <a href="#">Configuration</a>
+            <a href="/configuration">Configuration</a>
         </div>
 
         <div class="content">
-
-            <div class="blocked-ports">
-                <h2>Blocked Ports</h2>
-                <!-- Add form to block ports -->
-                <form id="blockPortForm" action="/block-port" method="POST">
-                    <label for="portNumber">Port Number:</label>
-                    <input type="text" id="portNumber" name="portNumber" required>
-                    <label for="trafficType">Traffic Type:</label>
-                    <input type="checkbox" id="incoming" name="trafficType" value="incoming">
-                    <label for="incoming">Incoming</label>
-                    <input type="checkbox" id="outgoing" name="trafficType" value="outgoing">
-                    <label for="outgoing">Outgoing</label>
+            <div class="status">
+                <h2>Block Port</h2>
+                <form id="blockPortForm">
+                    <label for="portInput">Port:</label>
+                    <input type="text" id="portInput" name="port" placeholder="Enter Port" required>
                     <button type="submit">Block Port</button>
                 </form>
-
-                <!-- Display list of blocked ports -->
-                <ul>
+            </div>
+            <div class="devices">
+                <h2>Blocked Ports</h2>
+                <ul id="blockedPortList">
                     {% for port in blocked_ports %}
-                        <li>{{ port }}</li>
+                    <li>
+                        {{ port }}
+                        <button class="delete-button" onclick="removeFromBlocklist('{{ port }}')">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    </li>
                     {% endfor %}
                 </ul>
             </div>
@@ -118,6 +161,55 @@
         </footer>
     </div>
 
+    <script>
+        document.getElementById('blockPortForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            let portInput = document.getElementById('portInput');
+            let portNumber = portInput.value;
+
+            fetch('/block-port', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: new URLSearchParams({
+                    'port': portNumber
+                })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        alert('Port blocked successfully!');
+                        portInput.value = ''; // Clear input field after successful blocking  
+                    } else {
+                        alert('Failed to block port.');
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        });
+
+        function removeFromBlocklist(port) {
+            fetch('/unblock-port', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: new URLSearchParams({
+                    'port': port
+                })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        alert('Port unblocked successfully!');
+                        location.reload(); // Refresh the page to update the Port list    
+                    } else {
+                        alert('Failed to unblock port.');
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        }    
+    </script>
 </body>
 
 </html>

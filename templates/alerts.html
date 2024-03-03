@@ -3,9 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NIDS Dashboard</title>
+    <title>Alerts</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -63,6 +61,39 @@
             margin-top: 0;
         }
 
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        button[type="submit"] {
+            background-color: #37474f;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #263238;
+        }
+
         footer {
             background-color: #37474f;
             color: #fff;
@@ -71,11 +102,23 @@
             border-bottom-left-radius: 5px;
             border-bottom-right-radius: 5px;
         }
+
+        .delete-button {
+            background-color: transparent;
+            border: none;
+            color: #f44336;
+            /* red */
+            cursor: pointer;
+        }
+
+        .delete-button:hover {
+            color: #b71c1c;
+            /* dark red */
+        }
     </style>
 </head>
 
 <body>
-
     <div class="container">
         <div class="navbar">
             <a href="/">Dashboard</a>
@@ -89,22 +132,16 @@
 
         <div class="content">
             <div class="status">
-                <h2>NIDS Status</h2>
-                <p>Status: <strong>Connected</strong></p>
-                <p>System IP Address: {{ local_ip }}</p>
-                <p>Uptime: <strong id="uptime"></strong></p>
-            </div>
-
-
-            <div class="devices">
-                <h2>Connected Devices</h2>
-                <ul>
-                    {% for device in connected_devices %}
-                    <li>
-                        <strong>IP:</strong> {{ device['ip'] }}, <strong>MAC:</strong> {{ device['mac'] }}
-                    </li>
+                <h2>DDoS Alerts</h2>
+                <table>
+                    {% for alert in ddos_alerts %}
+                    <tr>
+                        <td>{{ alert.timestamp }}</td>
+                        <td>{{ alert.src }}</td>
+                        <td>{{ alert.dst }}</td>
+                    </tr>
                     {% endfor %}
-                </ul>
+                </table>
             </div>
         </div>
 
@@ -112,22 +149,6 @@
             &copy; 2024 NIDS Dashboard. All rights reserved.
         </footer>
     </div>
-
-    <script>
-        function fetchUptime() {
-            fetch('/uptime')
-                .then(response => response.json())
-                .then(data => {
-                    document.getElementById('uptime').innerText = data.uptime;
-                })
-                .catch(error => console.error('Error fetching uptime:', error));
-        }
-
-        // Fetch uptime initially and then every 10 seconds
-        fetchUptime();
-        setInterval(fetchUptime, 1000);
-    </script>
-
 </body>
 
 </html>

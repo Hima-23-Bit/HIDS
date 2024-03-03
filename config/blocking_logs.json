@@ -1,649 +1,1477 @@
-
-{"timestamp": "2024-02-28 21:41:37.435965", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:37.436642", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:37.800030", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:41:37.900548", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:37.901133", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:38.128487", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:38.459865", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:38.460490", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:38.460989", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:38.796300", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:41:38.907827", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:38.909966", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:39.131579", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:39.483921", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:39.484579", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:39.931937", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:39.932606", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:40.097760", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:40.155950", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:40.507848", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:40.508528", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:40.509129", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:40.955724", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:40.956228", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:41.119798", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:41.183746", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:41.535691", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:41.536183", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:41.740128", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:41:41.983753", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:41.984281", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:42.048009", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:41:42.139715", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:42.203750", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:42.804076", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:41:43.003744", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:43.004194", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:43.067769", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:41:43.163919", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:43.231748", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:43.547800", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:43.548662", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:43.800045", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:41:44.091740", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:41:44.191728", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:44.603743", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:44.604110", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:45.019904", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:45.020498", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:45.115708", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:41:45.211971", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:45.243753", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:46.139941", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:41:47.164049", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:41:47.231910", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:47.676002", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:47.676454", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:47.808362", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:41:48.804755", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:41:49.179923", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:41:49.215932", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:49.216597", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:49.467785", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:50.751730", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:50.805677", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:41:51.263760", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:52.795787", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:52.796323", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:52.812216", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:41:52.812892", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:41:53.307605", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:41:53.808345", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:41:53.823606", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:41:53.825576", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:41:54.847747", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:55.810459", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:41:55.845058", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:41:55.867781", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:55.868224", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:56.895812", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:56.896461", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:57.403736", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:57.404205", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:57.659881", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:57.915679", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:58.939819", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:59.450256", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:59.451628", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:59.700957", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:41:59.963747", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:00.475767", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:00.731703", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:00.812903", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:42:00.848402", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:42:00.987718", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:00.991992", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:00.992718", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:00.993071", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:00.993455", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:00.993796", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:00.994142", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:01.499645", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:01.500089", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:01.755746", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:01.845697", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:42:02.011922", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:02.012572", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:02.013001", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:02.013427", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:02.013902", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:02.014297", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:02.014714", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:02.142966", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:02.523792", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:02.779975", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.035665", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.036176", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.036619", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.036974", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.037261", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.037585", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.037910", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.038234", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.038554", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.038846", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.039148", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.039560", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.040039", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.040355", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.040731", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.041184", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.041646", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.042011", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.120608", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:03.163612", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:03.547911", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:03.807789", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.027943", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.059788", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.060302", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.060677", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.061016", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.061385", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.061755", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.062124", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.062597", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.062955", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.063300", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.063659", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.064014", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.064368", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.064782", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.065143", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.065543", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.066048", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.066674", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.123742", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:04.187810", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:04.571930", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:04.827763", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:05.083674", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:05.084317", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:05.084804", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:05.085338", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:05.085804", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:05.086168", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:05.086477", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:05.086790", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:05.087110", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:05.087447", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:05.087759", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:05.088064", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:05.088408", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:05.088736", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:05.089224", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:05.089767", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:05.090275", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:05.090657", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:05.120735", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:05.147739", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:05.215735", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:05.815996", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:42:05.852422", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:42:06.107761", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.108361", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.109013", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.109769", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.110516", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.111074", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.111448", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.111832", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.112345", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.112808", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.113243", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.113686", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.114147", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.114607", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.114970", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.115477", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.115912", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.116336", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.139655", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:06.175796", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:06.235665", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:06.587742", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.843885", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:06.848143", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:42:07.131782", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:07.132317", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:07.132874", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:07.133326", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:07.133654", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:07.134026", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:07.134410", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:07.134809", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:07.135156", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:07.135764", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:07.136356", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:07.136862", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:07.163828", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:07.195770", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:07.259728", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:08.123817", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:08.124481", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:08.125027", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:08.125439", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:08.125819", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:08.126154", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:08.156032", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:08.156721", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:08.157483", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:08.158032", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:08.158520", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:08.158947", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:08.159736", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:08.160164", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:08.160549", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:08.160942", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:08.161317", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:08.161660", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:08.162036", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:08.187912", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:08.219860", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:09.120939", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:09.215778", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:09.275651", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:10.139980", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:10.151550", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:10.175654", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:10.176163", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:10.176540", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:10.176889", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:10.177304", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:10.178006", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:10.178809", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:10.179953", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:10.180685", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:10.181347", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:10.181928", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:10.182891", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:10.235708", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:10.236352", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:10.402241", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:10.715745", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:10.856307", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:42:10.975670", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:11.163736", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:11.164322", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:11.419914", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:11.852324", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:42:11.999608", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:11.999980", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:12.187930", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:12.188423", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:12.251863", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:12.252548", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:12.253104", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:12.253615", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:12.254028", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:12.254439", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:12.254855", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:12.443696", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:12.485489", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:12.736124", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:13.211804", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:13.215761", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:13.279858", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:13.280249", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:13.471710", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:13.503635", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:13.531836", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:13.532536", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:13.532998", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:13.755825", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:13.791750", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:13.846526", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:42:14.235780", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:14.236308", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:14.299882", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:14.303772", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:14.304223", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:14.304606", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:14.304961", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:14.305493", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:14.305853", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:14.306176", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:14.306506", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:14.306848", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:14.307169", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:14.307577", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:14.307944", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:14.308275", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:14.308604", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:14.491911", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:14.523815", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:14.779583", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:15.259853", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:15.323741", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:15.324263", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:15.324731", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:15.325104", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:15.325572", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:15.382998", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:15.515652", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:15.548043", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:15.579981", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:15.807761", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:16.251973", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:16.351845", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:16.352517", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:16.353069", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:16.353544", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:16.353963", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:16.354314", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:16.415856", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:16.575807", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:16.827877", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:16.857065", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:42:17.120813", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:17.279795", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:17.371757", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:17.372301", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:17.372887", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:17.373230", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:17.373548", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:17.435802", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:17.531819", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:17.595940", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:17.851924", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:18.139792", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:18.391680", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:18.395853", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:18.396265", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:18.396688", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:18.397068", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:18.459791", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:18.634168", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:18.851378", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:42:18.907729", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:19.163614", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:19.167700", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:19.419811", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:19.423778", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:19.424697", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:19.483738", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:19.611705", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:19.643639", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:19.867885", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:20.191764", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:20.411734", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:20.412156", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:20.443734", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:20.444205", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:20.444661", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:20.445083", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:20.445433", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:20.445814", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:20.446176", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:20.446532", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:20.446892", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:20.447250", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:20.507901", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:20.667832", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:21.211779", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:21.467982", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:21.468709", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:21.469202", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:21.691863", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:21.727722", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:21.728159", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:22.235789", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:22.459766", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:22.460249", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:22.491658", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:22.492126", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:22.492554", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:22.492955", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:22.493300", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:22.493649", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:22.493973", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:22.494433", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:22.494729", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:22.495018", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:22.495327", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:22.495621", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:22.495913", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:22.496205", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:22.523609", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:22.715776", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:23.515720", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:23.516094", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:23.739905", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:23.771920", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:23.855950", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:42:24.028006", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:24.251713", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:24.539676", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:24.540168", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:24.540708", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:25.531754", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:25.563756", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:25.755659", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:26.587779", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:26.588161", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:26.588529", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:28.379807", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:28.635718", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:28.859999", "message": "Blocked URL: chat.openai.com."}
-{"timestamp": "2024-02-28 21:42:29.659666", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:29.660193", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:29.915801", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:29.916189", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:31.963870", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:32.219821", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:32.475711", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:32.735874", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:32.736651", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:33.120857", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:34.139653", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:34.779718", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:34.780178", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:34.781934", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:35.035830", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:35.163718", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:35.291635", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:35.803839", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:36.187801", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:36.571634", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:36.572197", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:36.572602", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:36.572947", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:36.573278", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:36.573603", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:36.573935", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:37.211861", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:37.851862", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:38.111839", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:38.235900", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:38.619922", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:38.620695", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:38.621040", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:38.621352", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:38.621640", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:38.621926", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:38.622210", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:38.622493", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:38.622776", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:38.623060", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:38.623361", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:38.623651", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:40.251738", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:41.951825", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:44.507969", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:45.791769", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:46.043755", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:46.044271", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:46.044794", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:46.045489", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:46.046201", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:46.046560", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:48.091945", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:48.092748", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:48.347620", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:48.863776", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:48.864285", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:50.907753", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:50.908324", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:50.909001", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:52.699733", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:53.979733", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:54.235852", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:42:57.815916", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:58.155603", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:58.266386", "message": "Blocked URL: www.google.com."}
-{"timestamp": "2024-02-28 21:42:58.771042", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:58.844244", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:59.029573", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:59.163731", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:59.775730", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:42:59.867795", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:00.059719", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:00.173254", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:00.191797", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:00.383770", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:00.424631", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:00.795675", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:00.891758", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:01.087768", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:01.183687", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:01.211809", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:01.435809", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:01.819660", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:01.919654", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:02.107792", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:02.203941", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:02.244249", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:02.428010", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:02.459582", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:02.843623", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:02.939998", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:03.131928", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:03.233137", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:03.263718", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:03.268255", "message": "Blocked URL: www.google.com."}
-{"timestamp": "2024-02-28 21:43:03.483783", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:03.518162", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:03.867695", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:04.155626", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:04.275164", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:04.283802", "message": "Blocked URL: www.google.com."}
-{"timestamp": "2024-02-28 21:43:04.511926", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:04.539784", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:04.956253", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:05.139011", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:05.275876", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:05.279648", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:05.535753", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:05.563758", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:05.887681", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:06.143745", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:06.175774", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:06.226151", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:06.523710", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:06.524274", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:06.591784", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:07.163761", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:07.227834", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:07.295735", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:07.547827", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:07.612073", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:08.187712", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:08.251799", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:08.272018", "message": "Blocked URL: www.google.com."}
-{"timestamp": "2024-02-28 21:43:08.571780", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:08.572250", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:08.572636", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:08.635795", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:09.087757", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:09.211848", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:09.270309", "message": "Blocked URL: www.google.com."}
-{"timestamp": "2024-02-28 21:43:09.275698", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:09.339656", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:10.108017", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:10.235635", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:10.299728", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:10.363759", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:10.619672", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:10.620261", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:10.620758", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:10.621387", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:10.621843", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:10.622258", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:10.622661", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:10.656003", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:11.327840", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:11.387707", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:11.647722", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:12.251725", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:12.671660", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:12.672127", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:12.672534", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:12.672911", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:12.673282", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:12.673658", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:12.674026", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:12.674357", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:12.674684", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:12.675022", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:12.675597", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:12.675985", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:13.276241", "message": "Blocked URL: www.google.com."}
-{"timestamp": "2024-02-28 21:43:13.339883", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:14.272094", "message": "Blocked URL: www.google.com."}
-{"timestamp": "2024-02-28 21:43:14.715662", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:14.848515", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:15.099272", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:15.867993", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:16.123773", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:16.266931", "message": "Blocked URL: www.google.com."}
-{"timestamp": "2024-02-28 21:43:16.507797", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:16.891758", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:17.147761", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:17.275572", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:17.531944", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:17.532588", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:17.709422", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:17.915770", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:18.175736", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:18.299905", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:18.555680", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:18.719887", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:18.812030", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:18.812501", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:18.943751", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:19.199702", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:19.276058", "message": "Blocked URL: www.google.com."}
-{"timestamp": "2024-02-28 21:43:19.579784", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:19.739795", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:19.835992", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:19.967699", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:20.219832", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:20.719675", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:20.767705", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:20.863732", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:20.864353", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:20.864818", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:20.962859", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:21.272147", "message": "Blocked URL: www.google.com."}
-{"timestamp": "2024-02-28 21:43:21.723786", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:21.791879", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:21.979735", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:21.980376", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:22.235900", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:22.751647", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:22.811671", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:22.907719", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:22.908396", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:22.911779", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:23.003767", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:23.771759", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:24.027793", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:24.699740", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:24.795661", "message": "Blocked Port: 80"}
-{"timestamp": "2024-02-28 21:43:24.828055", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:24.955660", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:24.956159", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:24.956518", "message": "Blocked Port: 443"}
-{"timestamp": "2024-02-28 21:43:25.055791", "message": "Blocked Port: 80"}
+{
+    "timestamp": "2024-03-02 22:01:28.568335",
+    "message": "Blocked Service in Payload",
+    "protocol": "UDP",
+    "src": "192.168.176.137",
+    "dst": "224.0.0.251"
+}
+{
+    "timestamp": "2024-03-02 22:02:23.968472",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:23.969145",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:23.973956",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:24.225005",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:24.986954",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:24.987438",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:24.987894",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:25.238991",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:26.011220",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:26.011637",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:26.012039",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:26.267192",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:27.031300",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:27.032129",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:27.032608",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:27.291192",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:28.054995",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:28.055546",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:28.056104",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:28.310990",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:29.079017",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:29.079709",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:29.080097",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:29.335067",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:31.094950",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:31.095410",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:31.096422",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:31.350837",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:43.514983",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:43.515381",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:43.515730",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:43.766990",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:59.638934",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:59.639370",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:59.639876",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:02:59.895030",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:03:33.430920",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:03:33.431559",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:03:33.431991",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:03:33.432338",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:39.079945",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:39.082980",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:39.328516",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:40.087000",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:40.087579",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:40.343264",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:41.114862",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:41.115532",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:41.367060",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:42.135061",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:42.135530",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:42.391200",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:43.159191",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:43.159629",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:43.414927",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:44.182829",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:44.183379",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:44.439027",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:46.198926",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:46.199377",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:46.455140",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:50.395004",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:50.395483",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:50.650844",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:58.583071",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:21:58.583662",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:25:11.607160",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:25:11.607904",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:25:11.863213",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:25:44.631025",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:25:44.631557",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:25:44.632153",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.176.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-02 22:26:01.964093",
+    "message": "Blocked Port: 22",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.43.132.131"
+}
+{
+    "timestamp": "2024-03-02 22:26:02.966860",
+    "message": "Blocked Port: 22",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.43.132.131"
+}
+{
+    "timestamp": "2024-03-02 22:26:03.991273",
+    "message": "Blocked Port: 22",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.43.132.131"
+}
+{
+    "timestamp": "2024-03-02 22:26:05.015267",
+    "message": "Blocked Port: 22",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.43.132.131"
+}
+{
+    "timestamp": "2024-03-02 22:26:06.039274",
+    "message": "Blocked Port: 22",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.43.132.131"
+}
+{
+    "timestamp": "2024-03-02 22:26:07.063286",
+    "message": "Blocked Port: 22",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.43.132.131"
+}
+{
+    "timestamp": "2024-03-02 22:26:09.079113",
+    "message": "Blocked Port: 22",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.43.132.131"
+}
+{
+    "timestamp": "2024-03-02 22:26:13.303199",
+    "message": "Blocked Port: 22",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.43.132.131"
+}
+{
+    "timestamp": "2024-03-02 22:26:17.841824",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.37.196.198"
+}
+{
+    "timestamp": "2024-03-02 22:26:18.871188",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.37.196.198"
+}
+{
+    "timestamp": "2024-03-02 22:26:19.895273",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.37.196.198"
+}
+{
+    "timestamp": "2024-03-02 22:26:20.919203",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.37.196.198"
+}
+{
+    "timestamp": "2024-03-02 22:26:21.943272",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.37.196.198"
+}
+{
+    "timestamp": "2024-03-02 22:26:22.967351",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.37.196.198"
+}
+{
+    "timestamp": "2024-03-02 22:26:24.983015",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.37.196.198"
+}
+{
+    "timestamp": "2024-03-02 22:26:29.175253",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.37.196.198"
+}
+{
+    "timestamp": "2024-03-02 22:26:37.367242",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.37.196.198"
+}
+{
+    "timestamp": "2024-03-02 22:26:53.495230",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.37.196.198"
+}
+{
+    "timestamp": "2024-03-02 22:27:04.720009",
+    "message": "Blocked Service in Payload",
+    "protocol": "UDP",
+    "src": "192.168.176.137",
+    "dst": "224.0.0.251"
+}
+{
+    "timestamp": "2024-03-02 22:27:12.588939",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "40.112.243.51"
+}
+{
+    "timestamp": "2024-03-02 22:27:13.590986",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "40.112.243.51"
+}
+{
+    "timestamp": "2024-03-02 22:27:14.615210",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "40.112.243.51"
+}
+{
+    "timestamp": "2024-03-02 22:27:15.638994",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "40.112.243.51"
+}
+{
+    "timestamp": "2024-03-02 22:27:16.662999",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "40.112.243.51"
+}
+{
+    "timestamp": "2024-03-02 22:27:17.687027",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "40.112.243.51"
+}
+{
+    "timestamp": "2024-03-02 22:27:19.703154",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "40.112.243.51"
+}
+{
+    "timestamp": "2024-03-02 22:27:23.958969",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "40.112.243.51"
+}
+{
+    "timestamp": "2024-03-02 22:27:32.150918",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "40.112.243.51"
+}
+{
+    "timestamp": "2024-03-02 22:27:48.279215",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "40.112.243.51"
+}
+{
+    "timestamp": "2024-03-02 22:28:22.327164",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "40.112.243.51"
+}
+{
+    "timestamp": "2024-03-02 22:29:27.863461",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "191.235.228.36"
+}
+{
+    "timestamp": "2024-03-02 22:29:28.886884",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "191.235.228.36"
+}
+{
+    "timestamp": "2024-03-02 22:29:29.910983",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "191.235.228.36"
+}
+{
+    "timestamp": "2024-03-02 22:29:30.935074",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "191.235.228.36"
+}
+{
+    "timestamp": "2024-03-02 22:29:31.958962",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "191.235.228.36"
+}
+{
+    "timestamp": "2024-03-02 22:29:32.983192",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "191.235.228.36"
+}
+{
+    "timestamp": "2024-03-02 22:29:34.999082",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "191.235.228.36"
+}
+{
+    "timestamp": "2024-03-02 22:29:39.127291",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "191.235.228.36"
+}
+{
+    "timestamp": "2024-03-02 22:29:47.319152",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "191.235.228.36"
+}
+{
+    "timestamp": "2024-03-02 22:32:07.607333",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "142.250.182.14"
+}
+{
+    "timestamp": "2024-03-02 22:32:08.630874",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "142.250.182.14"
+}
+{
+    "timestamp": "2024-03-02 22:32:09.658957",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "142.250.182.14"
+}
+{
+    "timestamp": "2024-03-02 22:32:10.678992",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "142.250.182.14"
+}
+{
+    "timestamp": "2024-03-02 22:32:11.702950",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "142.250.182.14"
+}
+{
+    "timestamp": "2024-03-02 22:32:12.726947",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "142.250.182.14"
+}
+{
+    "timestamp": "2024-03-02 22:32:14.743161",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "142.250.182.14"
+}
+{
+    "timestamp": "2024-03-02 22:32:18.870999",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "142.250.182.14"
+}
+{
+    "timestamp": "2024-03-02 22:32:27.063280",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "142.250.182.14"
+}
+{
+    "timestamp": "2024-03-02 22:33:16.334680",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.50.2.51"
+}
+{
+    "timestamp": "2024-03-02 22:33:17.335278",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.50.2.51"
+}
+{
+    "timestamp": "2024-03-02 22:33:18.359283",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.50.2.51"
+}
+{
+    "timestamp": "2024-03-02 22:33:19.383277",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.50.2.51"
+}
+{
+    "timestamp": "2024-03-02 22:33:20.407202",
+    "message": "Blocked Port: 21",
+    "protocol": "TCP",
+    "src": "192.168.176.137",
+    "dst": "20.50.2.51"
+}
+{
+    "timestamp": "2024-03-03 11:35:33.955509",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:33.966897",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:34.207119",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:34.967565",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:34.968994",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:35.223620",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:35.992161",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:35.995911",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:36.247555",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:37.015250",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:37.016047",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:37.272906",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:38.045358",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:38.048401",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:38.296244",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:39.065155",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:39.067747",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:39.323941",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:41.079890",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:41.081155",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:41.336236",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:45.176314",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:45.178835",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:35:45.435689",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:35.232837",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:35.233981",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:35.482918",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:36.247823",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:36.249189",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:36.503363",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:37.271596",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:37.272857",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:37.527676",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:38.303718",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:38.304396",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:38.556112",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:39.319417",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:39.320520",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:39.576413",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:40.344438",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:40.346301",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:40.600095",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:42.361087",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:42.363845",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:42.615911",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:46.424155",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:46.426273",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:46.680170",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:54.616288",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:54.618431",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:38:54.871283",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:39:10.744022",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:39:10.745898",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:39:11.000905",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:39:44.280560",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:39:44.282912",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:39:44.284403",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:33.405797",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:33.407015",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:33.655744",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:34.430775",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:34.433785",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:34.681009",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:35.452016",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:35.454786",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:35.703574",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:36.472175",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:36.474303",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:36.728224",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:37.496541",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:37.498650",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:37.756662",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:38.535000",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:38.538273",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:38.776541",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:40.536342",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:40.539641",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:40.791626",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:44.631230",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:44.632079",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:44.892495",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:52.824253",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:52.828046",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 11:46:53.082071",
+    "message": "Blocked IP: 17.89.12.1",
+    "protocol": "IP",
+    "src": "192.168.181.137",
+    "dst": "17.89.12.1"
+}
+{
+    "timestamp": "2024-03-03 12:10:43.216764",
+    "message": "Blocked Service in Payload",
+    "protocol": "UDP",
+    "src": "127.0.0.1",
+    "dst": "224.0.0.251"
+}

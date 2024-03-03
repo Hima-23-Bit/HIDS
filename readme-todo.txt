@@ -27,3 +27,5 @@ iptables --flush
  
 This command will clear all iptables rules and stop queuing packets to NFQUEUE. This is important to remember because forgetting to do this can result in all your network traffic being queued indefinitely, which might cause network connectivity issues.
 
+iptables --flush  
+(venv) root@15s-dr0xxx:/home/midhun/Desktop/Hima# iptables -I INPUT -j NFQUEUE --queue-num 0  && iptables -I OUTPUT -j NFQUEUE --queue-num 0

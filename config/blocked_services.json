@@ -1,3 +1,9 @@
 {
-    "blocked_services": ["ssh"]
+    "blocked_services": [
+        "FTP",
+        "SSH",
+        "Telnet",
+        "SNMP",
+        "ssh"
+    ]
 }

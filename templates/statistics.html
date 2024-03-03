@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Statistics</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar {
+            background-color: #37474f;
+            color: #fff;
+            padding: 20px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #263238;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .status,
+        .devices {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .status h2,
+        .devices h2 {
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: #37474f;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="/">Dashboard</a>
+            <a href="#">Alerts</a>
+            <a href="/statistics">Statistics</a>
+            <a href="/block-domain">Block Domains</a>
+            <a href="/block-ip-page">Block IP</a>
+            <a href="/block-ports">Block Port</a>
+            <a href="/configuration">Configuration</a>
+        </div>
+
+        <div class="content">
+            <div class="status">
+                <h2>Summary Statistics</h2>
+                <table>
+                    <tr>
+                        <td>IPs Blocked:</td>
+                        <td>{{ ips_blocked }}</td>
+                    </tr>
+                    <tr>
+                        <td>Ports Blocked:</td>
+                        <td>{{ ports_blocked }}</td>
+                    </tr>
+                    <tr>
+                        <td>Domains Blocked:</td>
+                        <td>{{ domains_blocked }}</td>
+                    </tr>
+                    <tr>
+                        <td>DDoS Attempts Detected:</td>
+                        <td>{{ ddos_detected }}</td>
+                    </tr>
+                    <tr>
+                        <td>Unique Source IPs:</td>
+                        <td>{{ unique_src_ips }}</td>
+                    </tr>
+                    <tr>
+                        <td>Unique Destination IPs:</td>
+                        <td>{{ unique_dst_ips }}</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="devices">
+                <h2>DDoS Attempts By Source</h2>
+                <table>
+                    {% for src, count in ddos_by_src %}
+                    <tr>
+                        <td>{{ src }}:</td>
+                        <td>{{ count }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+
+            <div class="most-blocked-ips">
+                <h2>Most Blocked IPs</h2>
+                <table>
+                    {% for ip, count in most_blocked_ips %}
+                    <tr>
+                        <td>{{ ip }}:</td>
+                        <td>{{ count }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+
+            <div class="most-blocked-ports">
+                <h2>Most Blocked Ports from these IPs</h2>
+                <table>
+                    {% for port, count in most_blocked_ports %}
+                    <tr>
+                        <td>{{ port }}:</td>
+                        <td>{{ count }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+
+            <div class="most-blocked-domains">
+                <h2>Most Blocked Domains</h2>
+                <table>
+                    {% for domain, count in most_blocked_domains %}
+                    <tr>
+                        <td>{{ domain }}:</td>
+                        <td>{{ count }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+
+            <div class="protocol-distribution">
+                <h2>Protocol Distribution</h2>
+                <table>
+                    {% for protocol, count in protocol_distribution %}
+                    <tr>
+                        <td>{{ protocol }}:</td>
+                        <td>{{ count }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+
+        <footer>
+            &copy; 2024 NIDS Dashboard. All rights reserved.
+        </footer>
+    </div>
+</body>
+
+</html>

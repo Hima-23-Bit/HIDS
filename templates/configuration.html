@@ -82,69 +82,59 @@
     <div class="container">
         <div class="navbar">
             <a href="/">Dashboard</a>
-            <a href="#">Alerts</a>
-            <a href="#">Statistics</a>
+            <a href="/alerts">Alerts</a>
+            <a href="/statistics">Statistics</a>
             <a href="/block-domain">Block Domains</a>
-            <a href="#">Block IP</a>
+            <a href="/block-ip-page">Block IP</a>
             <a href="/block-ports">Block Port</a>
-            <a href="#">Configuration</a>
+            <a href="/configuration">Configuration</a>
         </div>
 
-        <div class="content">
-
-            <div class="services">
-                <h2>Blocked Services</h2>
-                <!-- Add form to block services -->
-                <form id="blockServiceForm" action="/block-service" method="POST">
-                    <label for="serviceName">Service Name:</label>
-                    <select id="serviceName" name="serviceName">
-                        <option value="SSH">SSH</option>
-                        <option value="HTTP">HTTP</option>
-                        <option value="HTTPS">HTTPS</option>
-                        <option value="FTP">FTP</option>
-                        <option value="SMTP">SMTP</option>
-                        <option value="DNS">DNS</option>
-                        <option value="Telnet">Telnet</option>
-                        <option value="RDP">RDP</option>
-                        <option value="SNMP">SNMP</option>
-                        <option value="IMAP">IMAP</option>
-                        <option value="POP3">POP3</option>
-                        <option value="SMB">SMB</option>
-                    </select>
-                    <button type="submit">Block Service</button>
-                </form>
-
-                <!-- Display list of blocked services -->
-                <ul>
-                    {% for service in blocked_services %}
-                    <li>{{ service }}</li>
-                    {% endfor %}
-                </ul>
-            </div>
-
-            <!-- Form to delete services -->
-            <div class="delete-form">
-                <form id="deleteServiceForm" action="/delete-service" method="POST">
-                    <label for="deleteService">Delete Service:</label>
-                    <select id="deleteService" name="deleteService">
-                        {% for service in blocked_services %}
-                        <option value="{{ service }}">{{ service }}</option>
-                        {% endfor %}
-                    </select>
-                    <button type="submit">Delete Service</button>
-                </form>
-            </div>
-
-            <div class="ddos-threshold">
-                <h2>DDoS Threshold</h2>
-                <!-- Add form to set DDoS threshold -->
-                <form id="ddosThresholdForm" action="/set-ddos-threshold" method="POST">
-                    <label for="threshold">Threshold:</label>
-                    <input type="number" id="threshold" name="threshold" required>
-                    <button type="submit">Set Threshold</button>
-                </form>
-            </div>
-        </div>
+        <div class="content">  
+            <div class="configuration">  
+                <h2>Configuration</h2>  
+  
+                <form action="/configuration" method="POST">  
+                    <label for="icmp_threshold">ICMP Threshold:</label>  
+                    <input type="number" id="icmp_threshold" name="icmp_threshold" value="{{ icmp_threshold }}"> <br> <br>
+                    <label for="syn_threshold">SYN Threshold:</label>  
+                    <input type="number" id="syn_threshold" name="syn_threshold" value="{{ syn_threshold }}">  <br><br>
+                    <label for="entropy_threshold">Entropy Threshold:</label>  
+                    <input type="number" id="entropy_threshold" name="entropy_threshold" value="{{ entropy_threshold }}">  <br><br>
+                    <label for="port_scan_threshold">Port Scan Threshold:</label>  
+                    <input type="number" id="port_scan_threshold" name="port_scan_threshold" value="{{ port_scan_threshold }}">  <br><br>
+                      
+                    <label for="block_service">Block Service:</label>  <br>
+                    <select id="block_service" name="block_service">  
+                        <option value="SSH">SSH</option>  
+                        <option value="HTTP">HTTP</option>  
+                        <option value="HTTPS">HTTPS</option>  
+                        <option value="FTP">FTP</option>  
+                        <option value="SMTP">SMTP</option>  
+                        <option value="DNS">DNS</option>  
+                        <option value="Telnet">Telnet</option>  
+                        <option value="RDP">RDP</option>  
+                        <option value="SNMP">SNMP</option>  
+                        <option value="IMAP">IMAP</option>  
+                        <option value="POP3">POP3</option>  
+                        <option value="SMB">SMB</option>  
+                    </select>  
+                      
+                    <button type="submit">Save</button>  
+                </form>  
+                <br><br>
+                <!-- Add form to unblock services -->  
+                <form id="unblockServiceForm" action="/unblock-service" method="POST">  
+                    <label for="unblock_service">Unblock Service:</label> <br> 
+                    <select id="unblock_service" name="unblock_service">  
+                        {% for service in blocked_services %}  
+                        <option value="{{ service }}">{{ service }}</option>  
+                        {% endfor %}  
+                    </select>  
+                    <button type="submit">Unblock Service</button>  
+                </form>  
+            </div>  
+        </div>  
 
         <footer>
             &copy; 2024 NIDS Dashboard. All rights reserved.
