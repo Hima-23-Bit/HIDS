@@ -7,7 +7,12 @@ from scapy.layers.dns import DNS, DNSQR, DNSRR
 from collections import Counter  
 from math import log2  
 import socket  
-  
+
+
+# Add iptables rules  
+os.system('iptables -I OUTPUT -j NFQUEUE --queue-num 0')  
+os.system('iptables -I INPUT -j NFQUEUE --queue-num 0')  
+
 # Get the IP address of your machine  
 def get_my_ip():  
     return [(s.connect(('8.8.8.8', 53)), s.getsockname()[0], s.close()) for s in [socket.socket(socket.AF_INET, socket.SOCK_DGRAM)]][0][1]  
@@ -265,3 +270,5 @@ try:
 except KeyboardInterrupt:  
     print("[*] Stopping...")  
 
+# Flush iptables rules  
+os.system('iptables --flush')  
