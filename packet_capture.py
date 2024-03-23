@@ -80,7 +80,7 @@ def calculate_entropy(scapy_packet):
         # Calculate and return entropy  
         entropy = -sum(p * log2(p) for p in probs)  
         if entropy < ENTROPY_THRESHOLD:  
-            print(f"Potential DDoS attack detected from IP: {scapy_packet['IP'].src}! Blocking packet.")  
+            # print(f"Potential DDoS attack detected from IP: {scapy_packet['IP'].src}! Blocking packet.")  
             return True  
   
     return False  
@@ -134,29 +134,37 @@ blocked_ports = load_blocked_ports()
 blocked_services = load_blocked_services()  
   
 # Function to check if a packet matches any blocked criteria  
-def is_blocked(scapy_packet):    
-    if IP in scapy_packet:    
-        src_ip = scapy_packet[IP].src    
-        dst_ip = scapy_packet[IP].dst    
-        if src_ip in blocked_ips or dst_ip in blocked_ips:    
-            return True, f"Blocked IP: {src_ip if src_ip in blocked_ips else dst_ip}", "IP"    
-    if DNS in scapy_packet and scapy_packet[DNS].qr == 0:  # Only check queries, not responses    
-        domain = scapy_packet[DNSQR].qname.decode("utf-8")    
-        if any(blocked_domain in domain for blocked_domain in blocked_urls):    
-            return True, f"Blocked URL: {domain}", "DNS"   
-    if TCP in scapy_packet:    
-        src_port = scapy_packet[TCP].sport    
-        dst_port = scapy_packet[TCP].dport    
-        if src_port in blocked_ports or dst_port in blocked_ports:    
-            return True, f"Blocked Port: {src_port if src_port in blocked_ports else dst_port}", "TCP"    
-    if UDP in scapy_packet:    
-        # Handle UDP payloads as binary data    
-        payload = bytes(scapy_packet[UDP].payload)    
-        # Convert blocked services to bytes-like objects    
-        blocked_services_bytes = [service.encode() for service in blocked_services]    
-        if any(service_bytes.lower() in payload.lower() for service_bytes in blocked_services_bytes):    
-            return True, f"Blocked Service in Payload", "UDP"    
-    return False, "", ""  
+def is_blocked(scapy_packet):      
+    if IP in scapy_packet:      
+        src_ip = scapy_packet[IP].src      
+        dst_ip = scapy_packet[IP].dst      
+        if src_ip in blocked_ips or dst_ip in blocked_ips:  
+            # print("test IP")    
+            print(f"Blocking IP: {src_ip if src_ip in blocked_ips else dst_ip}")  
+            return True, f"Blocked IP: {src_ip if src_ip in blocked_ips else dst_ip}", "IP"      
+    if DNS in scapy_packet and scapy_packet[DNS].qr == 0:  # Only check queries, not responses      
+        domain = scapy_packet[DNSQR].qname.decode("utf-8")      
+        if any(blocked_domain in domain for blocked_domain in blocked_urls):      
+            # print("test Domain")    
+            print(f"Blocking URL: {domain}")  
+            return True, f"Blocked URL: {domain}", "DNS"     
+    if TCP in scapy_packet:      
+        src_port = scapy_packet[TCP].sport      
+        dst_port = scapy_packet[TCP].dport      
+        if src_port in blocked_ports or dst_port in blocked_ports:      
+            # print("test Port")    
+            print(f"Blocking Port: {src_port if src_port in blocked_ports else dst_port}")  
+            return True, f"Blocked Port: {src_port if src_port in blocked_ports else dst_port}", "TCP"      
+    if UDP in scapy_packet:      
+        # Handle UDP payloads as binary data      
+        payload = bytes(scapy_packet[UDP].payload)      
+        # Convert blocked services to bytes-like objects      
+        blocked_services_bytes = [service.encode() for service in blocked_services]      
+        if any(service_bytes.lower() in payload.lower() for service_bytes in blocked_services_bytes):  
+            # print("test Service")        
+            print("Blocking Service in Payload")  
+            return True, f"Blocked Service in Payload", "UDP"      
+    return False, "", ""    
 
 
 # IP address of your "blocked" page  
@@ -196,7 +204,7 @@ def handle_packet(packet):
     # Check entropy  
     entropy = calculate_entropy(scapy_packet)    
     if entropy:    
-        print("Potential DDoS attack detected! Blocking packet.")    
+        # print("Potential DDoS attack detected! Blocking packet.")    
         packet.drop()    
         return  
  
@@ -207,7 +215,7 @@ def handle_packet(packet):
   
         # Check if the domain is blocked  
         if any(blocked_domain in domain for blocked_domain in blocked_urls):  
-            # print(f"Blocked URL: {domain}")  
+            print(f"Blocked URL: {domain}")  
   
             # Create a DNS answer packet  
             dns_answer = DNSRR(rrname=domain, rdata=BLOCKED_PAGE_IP)  
