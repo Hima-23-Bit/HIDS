@@ -12,7 +12,7 @@ Ensure that you have the following installed on your local machine:
 Follow these steps to get a local copy of the code:  
 1. Clone the repository:  
 ```bash  
-git clone https://github.com/midhunsankar23/HIDS.git  
+git clone https://github.com/hima-23-bit/HIDS.git  
 ```  
 2. Navigate to the project directory:  
 ```bash  
